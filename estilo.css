@@ -8,7 +8,7 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #1c1c50;
+  background: linear-gradient(180deg, #000d50, #2d3d83); /* azul escuro → azul médio */
   color: #fff;
   padding: 30px 20px;
   text-align: center;
@@ -31,7 +31,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffc107;
+  color: #00fbff;
 }
 
 /* Área principal */
@@ -101,6 +101,17 @@ footer {
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* Seçoes do corpo */
+.corpo {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
+
 
 .question {
   margin-bottom: 20px;
