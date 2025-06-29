@@ -138,3 +138,16 @@ button:hover {
   font-weight: bold;
   color: #1c1c50;
 }
+
+.carrossel {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.carrossel .noticia {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
